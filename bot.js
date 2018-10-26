@@ -1,6 +1,6 @@
+à 14:45
 const Discord = require('discord.js');
 const client = new Discord.Client();
-
 
 
 client.on('ready', function() {
@@ -23,7 +23,7 @@ message.channel.send("**.bc <message>**");
 return;
 }
 message.guild.members.forEach(m => {
-   if(!message.member.hasPermission('440856489524068352')) return;
+   if(!message.member.hasPermission('ADMINISTRATOR')) return;
    m.send(`${args}`);
 
 });
