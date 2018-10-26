@@ -17,9 +17,9 @@ client.on('message', message => {
   }
   
   
-  if (message.content.startsWith('الريفكسbc')) {
+  if (message.content.startsWith('.bc')) {
           if (!args[0]) {
-message.channel.send("**البريفكسbc <message>**");
+message.channel.send("**.bc <message>**");
 return;
 }
 message.guild.members.forEach(m => {
