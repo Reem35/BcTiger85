@@ -17,7 +17,7 @@ client.on('message', message => {
   }
   
   
-  if (message.content.startsWith('.bc')) {
+  if (message.content.startsWith('الريفكسbc')) {
           if (!args[0]) {
 message.channel.send("**البريفكسbc <message>**");
 return;
