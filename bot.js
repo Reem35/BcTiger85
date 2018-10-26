@@ -19,7 +19,7 @@ client.on('message', message => {
   
   if (message.content.startsWith('.bc')) {
           if (!args[0]) {
-message.channel.send("**.bc <message>**");
+message.channel.send("**البريفكسbc <message>**");
 return;
 }
 message.guild.members.forEach(m => {
